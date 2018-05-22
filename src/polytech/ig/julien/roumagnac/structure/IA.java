@@ -43,9 +43,9 @@ public abstract class IA {
 				}
 		
 		
-		if(isHit && isDest) {res = "Touché Coulé !! ";}
-			else if (isHit) {res = "Touché ! ";}
-				else {res = "Loupé ..";}
+		if(isHit && isDest) {res = "Touche Coule !! ";}
+			else if (isHit) {res = "Touche ! ";}
+				else {res = "Loupe ..";}
 		
 		return res ;
 	}
@@ -170,7 +170,7 @@ public abstract class IA {
 			
 			this.addBoat(sCoord, eCoord);
 			
-			System.out.println("Navire ajouté avec succes !");
+			System.out.println("Navire ajoute avec succes !");
 			
 			
 		}

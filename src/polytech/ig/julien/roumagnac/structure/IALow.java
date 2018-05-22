@@ -8,7 +8,7 @@ public class IALow extends IA implements Play {
 
 	
 		
-	//constructeur a refaire car il faut le faire sans arguments les bateaux doivent lui etre ajouté un par un 
+	//constructeur a refaire car il faut le faire sans arguments les bateaux doivent lui etre ajoute un par un 
 	public IALow() {
 			
 			super();

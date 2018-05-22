@@ -33,7 +33,7 @@ public class Pos {
 	// test pour une entree si les valeurs sont coherentes taille 2 et [a-j] [0-9]
 	public  static boolean isAvailable(String coord ) {
 		boolean cond1,cond2= false;
-		// on teste que les entrées sont de taille 2
+		// on teste que les entrees sont de taille 2
 		 cond1 = coord.length()== 2 ;
 		
 		if (cond1) {

@@ -58,9 +58,9 @@ public class Player implements Play{
 				}
 		
 		
-		if(isHit && isDest) {res = "Touché Coulé !! ";}
-			else if (isHit) {res = "Touché ! ";}
-				else {res = "Loupé ..";}
+		if(isHit && isDest) {res = "Touche Coule !! ";}
+			else if (isHit) {res = "Touche ! ";}
+				else {res = "Loupe ..";}
 		
 		return res ;
 	}
@@ -149,13 +149,13 @@ public class Player implements Play{
 				
 				while (cond) {
 				
-					if (bug==1) {System.err.println("attention coordonées non valides: bateau en diagonale ou format de l'entrée incorrect");}
+					if (bug==1) {System.err.println("attention coordonees non valides: bateau en diagonale ou format de l'entree incorrect");}
 					else if (bug == 2) {System.err.println("attention ce navire en chevaucherai un deja present ! ");}
 					else if (bug==3) {System.err.println("La taille du bateau que vous vouliez creez n'est plus disponible");}
-					System.out.println("entrez une coordonnées de depart pour votre bateau au format: A0 ou C6 ou E8 ");
+					System.out.println("entrez une coordonnees de depart pour votre bateau au format: A0 ou C6 ou E8 ");
 					
 					String startCoord = sc.nextLine();
-					System.out.println("entrez mainteant une coordonées de fin pour votre bateau toujour au format A2 ou C8 etc ");
+					System.out.println("entrez mainteant une coordonees de fin pour votre bateau toujour au format A2 ou C8 etc ");
 					String endCoord = sc.nextLine();
 					if (Game.areAvailable(startCoord, endCoord)) {
 						if (!this.contain(startCoord, endCoord)){
@@ -164,10 +164,10 @@ public class Player implements Play{
 								cond=false;
 								bug=0;
 								
-								System.out.println("Navire ajouté avec succes !");
+								System.out.println("Navire ajoute avec succes !");
 							}else {bug=3;}// taille indisponible}
 						}else {bug=2;}// chevauchement }
-					}else {bug=1;}// coordonées non valides 
+					}else {bug=1;}// coordonees non valides 
 				}
 			
 			}
@@ -186,7 +186,7 @@ public class Player implements Play{
 			System.out.println();
 			this.display();
 			System.out.println();
-			System.out.println("veuillez entrer une coordonée d'attaque au format A0 ou b5 ou C7 etc ");
+			System.out.println("veuillez entrer une coordonee d'attaque au format A0 ou b5 ou C7 etc ");
 			Scanner sc = new Scanner(System.in);
 			String att="";
 			
@@ -198,8 +198,8 @@ public class Player implements Play{
 			
 			
 			while(!Pos.isAvailable(att)) {
-				System.err.println("la coordonée n'avait pas le format attendu ( A0 ou B3 ou c7 ou D9 ou J5) etc ");
-				System.out.println("Reesayez une coordonée correcte svp ");
+				System.err.println("la coordonee n'avait pas le format attendu ( A0 ou B3 ou c7 ou D9 ou J5) etc ");
+				System.out.println("Reesayez une coordonee correcte svp ");
 				att=sc.nextLine();
 				
 				
@@ -220,7 +220,7 @@ public class Player implements Play{
 			int k,l;
 			boolean cond,hit=false;
 			String pos;
-			System.out.println(                "Voici votre flotte                voici les coups que vous avez deja éffectué ( x: touché ; L: loupé )");
+			System.out.println(                "Voici votre flotte                voici les coups que vous avez deja effectue ( x: touche ; L: loupe )");
 			System.out.println("            A| B| C| D| E| F| G| H| I| J            A| B| C| D| E| F| G| H| I| J");
 			System.out.println("           ===============================         ===============================");
 			for(int i = 0; i < 10; i++){

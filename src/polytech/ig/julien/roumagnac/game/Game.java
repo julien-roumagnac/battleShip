@@ -6,7 +6,7 @@ public class Game {
 			// test si les positions choisient sont acceptables ( diago ? taille ? a,J ; 0,9 ? une seule case ? )
 			public  static boolean areAvailable(String startCoord , String endCoord) {
 				boolean cond1,cond2,cond4 = false;
-				// on teste que les entrées sont de taille 2
+				// on teste que les entrees sont de taille 2
 				boolean cond3 = startCoord.length()== 2 && endCoord.length()==2;
 				
 				if (cond3) {
@@ -32,7 +32,7 @@ public class Game {
 			
 			
 			resAtt = j2.attaque(att);
-			boolean res = resAtt.equals("Touché Coulé !! ") || resAtt.equals("Touché ! ") ? true : false ;
+			boolean res = resAtt.equals("Touche Coule !! ") || resAtt.equals("Touche ! ") ? true : false ;
 			j1.addShoot(att.toUpperCase(), res);
 			
 			

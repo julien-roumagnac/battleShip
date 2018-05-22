@@ -18,7 +18,7 @@ public class Ship {
 	
 	
 
-	// test si toutes les case du bateau sont touché
+	// test si toutes les case du bateau sont touche
 	public boolean isDestroyed() {
 		boolean res = true;
 		int i = 0;
@@ -48,7 +48,7 @@ public class Ship {
 		return res;
 	}
 
-	// teste si le bouteau est touché surune case precise
+	// teste si le bouteau est touche surune case precise
 	public boolean isAllreadyHit(String att) {
 		boolean res = false;
 
@@ -96,7 +96,7 @@ public class Ship {
 		return res ;
 	}
 
-	// ajoute au tableau des coordonées toutes les coordonées entre Startcoord et
+	// ajoute au tableau des coordonees toutes les coordonees entre Startcoord et
 	// End Coord
 	private void setCoords(String startCoord, String endCoord) {
 		char xMin;

@@ -118,7 +118,7 @@ public class TestIA extends Game {
 					  
 					}
 				else {
-					System.out.println("_______________  IA de niveau inferieur a gagné   __________________");}
+					System.out.println("_______________  IA de niveau inferieur a gagne   __________________");}
 				}
 			x2=compteur;
 			
@@ -347,7 +347,7 @@ public class TestIA extends Game {
 			finally {
 				try {
 					fw.flush();
-					System.out.println("fichier créé");
+					System.out.println("fichier cree");
 					fw.close();
 					}
 				catch(IOException i) {

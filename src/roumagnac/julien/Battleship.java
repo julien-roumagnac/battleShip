@@ -23,7 +23,7 @@ public class Battleship extends Game {
 		Scanner sc = new Scanner(System.in);
 		mode = sc.nextLine();
 		while(!(mode.equals("1")|| mode.equals("2"))){
-			System.err.println("Vous n'avez pas rentré ( 1 ou 2  ) . ");
+			System.err.println("Vous n'avez pas rentre ( 1 ou 2  ) . ");
 			
 			System.out.println("tapez :  1 pour jouer avec un ami ; 2 pour jouer contre une IA");
 			mode = sc.nextLine();
@@ -32,7 +32,7 @@ public class Battleship extends Game {
 			System.out.println("Choisissez le level de L'IA : 1 , 2 ,3 ou 4");
 			lvl = sc.nextLine();
 			while(!(lvl.equals("1")|| lvl.equals("2")|| lvl.equals("3") || lvl.equals("4"))){
-				System.err.println("Vous n'avez pas rentré ( 1 ou 2 ou 3 ou 4  ) . ");
+				System.err.println("Vous n'avez pas rentre ( 1 ou 2 ou 3 ou 4  ) . ");
 				
 				System.out.println("tapez :  1 pour Low; 2 pour Medium ; 3 pour High ; 4 pour HighAieAie");
 				lvl = sc.nextLine();
@@ -117,7 +117,7 @@ public class Battleship extends Game {
 				System.out.println();
 		
 				if(j1.isDead()) { 
-					System.out.println("________________  Vous avez perdu ! entrainez vous et réessayer !  _____________________ ");
+					System.out.println("________________  Vous avez perdu ! entrainez vous et reessayer !  _____________________ ");
 					 
 					}
 				else {
@@ -127,7 +127,7 @@ public class Battleship extends Game {
 				System.out.println("Voulez vous prendre votre revanche ? entrez 'o' pour continuer et 'n' ");
 				replay=sc.nextLine();
 				while(!(replay.toLowerCase().equals("o")||replay.toLowerCase().equals("n"))) {
-					System.err.println("attention vous n'avez pas rentré : o  ou n ");
+					System.err.println("attention vous n'avez pas rentre : o  ou n ");
 					System.out.println("Voulez vous prendre votre revanche ? entrez 'o' pour continuer et 'n' ");
 					replay=sc.nextLine();
 				}

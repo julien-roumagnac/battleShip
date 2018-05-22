@@ -15,8 +15,8 @@
 Si vous desirez jouer  télécharger le dossier racine.
 ### Sous Linux ou Mac 
 Placez vous dans ce dossier depuis le terminal et executez les deux commandes suivantes : 
-- chmod +x battleship.sh
-- ./battleship.sh
+1. chmod +x battleship.sh
+2. ./battleship.sh
 ### Sous windows 
 -Importez ce projet dans un IDE java
 -Lancez la classe battleship du package roumagnac.julien
@@ -25,9 +25,9 @@ Placez vous dans ce dossier depuis le terminal et executez les deux commandes su
 Si vous desirez testez les IAs entre elles  télécharger le dossier racine.
 ### Sous Linux ou Mac 
 Placez vous dans ce dossier depuis le terminal et executez les  commandes suivantes : 
-- chmod +x TestIA.sh
-- ./TestIA.sh
--nano ai_proof.csv
+1. chmod +x TestIA.sh
+2. ./TestIA.sh
+3. nano ai_proof.csv
 ### Sous windows 
 -Importez ce projet dans un IDE java
 -Lancez la classe testIA du package fr.battleship
@@ -36,5 +36,3 @@ Placez vous dans ce dossier depuis le terminal et executez les  commandes suivan
 
 
 
-
-### For more details, refer to the project report.

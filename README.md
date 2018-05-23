@@ -27,7 +27,7 @@ Si vous desirez testez les IAs entre elles  télécharger le dossier racine.
 Placez vous dans ce dossier depuis le terminal et executez les  commandes suivantes : 
 1. chmod +x TestIA.sh
 2. ./TestIA.sh
-3. nano ai_proof.csv
+3. nano src/ai_proof.csv
 ### Sous windows 
 -Importez ce projet dans un IDE java
 -Lancez la classe testIA du package fr.battleship
